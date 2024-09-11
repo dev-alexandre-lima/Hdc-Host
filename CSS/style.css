@@ -8,7 +8,7 @@
 
 h1,
 h2,
-h3{
+h3 {
     color: #333;
 }
 
@@ -24,16 +24,16 @@ p{
     padding: 0 2rem;
 }
 
-.nav{
+.nav {
     position: relative;
 }
 
-.logo{
+.logo {
     width: 50px;
     margin-top: 15px;
 }
 
-.navbar-itens{
+.navbar-itens {
     position: absolute;
     right: 0;
     height: 80px;
@@ -42,29 +42,29 @@ p{
     display: inline-block;
 }
 
-.navbar-itens li{
+.navbar-itens li {
     display: inline-block;
     text-transform: uppercase;
     margin: 15px;
 }
 
-.navbar-itens a{
+.navbar-itens a {
     color: #fff;
     text-decoration: none;
     transition: 0.5s;
 }
 
-.navbar-itens a:hover{
+.navbar-itens a:hover {
     color: #666;
 }
 
-.default-btn{
+.default-btn {
     padding: 15px 20px;
     background-color: #2cc76a;
     border-radius: 5px;
 }
 
-.navbar-itens .default-btn:hover{
+.navbar-itens .default-btn:hover {
     background-color: #22bb5f;
     color: #fff;
 }
@@ -85,7 +85,7 @@ p{
     text-shadow: #000 3px 2px 3px;
 }
 
-.main-banner h1{
+.main-banner h1 {
     font-size: 54px;
 }
 
@@ -137,37 +137,37 @@ p{
 }
 
 /* prices and plans */
-.pricing-container{
+.pricing-container {
     padding-bottom: 5rem;
     text-align: center;
 }
 
-.pricing-container h2{
+.pricing-container h2 {
     font-size: 36px;
 }
 
-.pricing-container p{
+.pricing-container p {
     font-size: 20px;
 }
 
-.plans-container{
+.plans-container {
     display: flex;
     justify-content: space-between;
     width: 90%;
     margin: 50px auto 0;
 }
 
-.plan{
+.plan {
     flex: 1;
     max-width: 275px;
     margin: 0 20px;
 }
 
-.plan ul{
+.plan ul {
     padding: 0;
 }
 
-.plan li{
+.plan li {
     list-style: none;
     height: 50px;
     line-height: 50px;
@@ -188,7 +188,7 @@ p{
     position: relative;
 }
 
-.plan .plan-name{
+.plan .plan-name {
     text-transform: uppercase;
     font-size: 20px;
     font-weight: bold;
@@ -197,7 +197,7 @@ p{
     padding: 50px;
 }
 
-.plan .plan-btn{
+.plan .plan-btn {
     background-color: #2cc762;
     color: #fff;
     font-size: 24px;
@@ -206,44 +206,44 @@ p{
     cursor: pointer;
 }
 
-.plan .recomended{
+.plan .recomended {
     background-color: #f45c57;
 }
 
 /* search domain */
-.searchdomain-container{
+.searchdomain-container {
     background-color: #34454e;
     text-align: center;
     padding: 5rem 0; 
 }
 
-.searchdomain-container h2{
+.searchdomain-container h2 {
     color: #fff;
     font-size: 42px;
     margin-bottom: 15px;
 }
 
-.searchdomain-container p{
+.searchdomain-container p {
     color: #d5d5d5;
     font-size: 24px;
     margin-bottom: 25px;
 }
 
-.searchdomain-container input{
+.searchdomain-container input {
     display: block;
     border: none;
     border-radius: 5px;
     margin: 0 auto;
 }
 
-.searchdomain-container input[type="text"]{
+.searchdomain-container input[type="text"] {
     width: 60%;
     padding: 20px;
     font-size: 20px;
     margin-bottom: 25px;
 }
 
-.searchdomain-container input[type="submit"]{
+.searchdomain-container input[type="submit"] {
     background-color: #2cc76a;
     padding: 15px 30px;
     color: #fff;
@@ -252,7 +252,7 @@ p{
     opacity: 0.8;
 }
 
-.searchdomain-container input[type="submit"]:hover{
+.searchdomain-container input[type="submit"]:hover {
     opacity: 0.1;
 }
 
@@ -262,18 +262,18 @@ p{
     padding: 5rem 0 2rem o;
 }
 
-.contact-container h2{
+.contact-container h2 {
     font-size: 36px;
     margin-bottom: 15px;
 }
 
-.contact-container p{
+.contact-container p {
     font-size: 20px;
     margin-bottom: 40px;
 }
 
 .contact-container input,
-.contact-container textarea{
+.contact-container textarea {
     width: 200px;
     padding: 10px 20px;
     font-size: 16px;
@@ -282,14 +282,14 @@ p{
     margin: 0 10px 20px;
 }
 
-.contact-container textarea{
+.contact-container textarea {
     display: block;
     margin: 0 auto 20px;
     width: 470px;
     height: 150px;
 }
 
-.contact-container input[type="submit"]{
+.contact-container input[type="submit"] {
     display: block;
     margin: 0 auto;
     background-color: #2cc762;
@@ -298,7 +298,7 @@ p{
 }
 
 /* footer */
-footer{
+footer {
     text-align: center;
     font-weight: bold;
     margin: 20px 0 100px;
@@ -307,8 +307,9 @@ footer{
 /* responsividade */
 
 /* small laptops a partir de 110px*/
-@media (max-width: 1100px){
-    .plans-container{
+@media (max-width: 1100px) {
+    
+    .plans-container {
         width: 95%;
     }
 
@@ -319,7 +320,8 @@ footer{
 
 /* tablet 900px */
 @media (max-width: 900px){
-    .main-banner p{
+    
+    .main-banner p {
         padding: 0 6rem;
     }
 
@@ -331,16 +333,16 @@ footer{
 /* celular 576 */
 @media (max-width: 576px) {
     html,
-    body{
+    body {
         overflow: hidden;
     }
 
-    .navbar-itens li{
+    .navbar-itens li {
         font-size: 12px;
         margin-left: 10px;
     }
 
-    .services-container ul{
+    .services-container ul {
         flex-direction: column;
     }
 
@@ -360,7 +362,7 @@ footer{
         margin-bottom: 15px;
     }
 
-    .searchdomain-container h2{
+    .searchdomain-container h2 {
         font-size: 28px;
     }
     
